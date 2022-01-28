@@ -1,8 +1,7 @@
-package retry.util
+package pl.amillert.retry.policy.utils.syntax
 
 import cats.FlatMap
 import cats.syntax.functor._
-import cats.effect.IO
 
 extension [F[_]: FlatMap, A](fa: F[A])
 
