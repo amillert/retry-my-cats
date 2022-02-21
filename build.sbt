@@ -1,10 +1,8 @@
-ThisBuild / version      := "0.0.1"
-ThisBuild / organization := "amillert"
-ThisBuild / scalaVersion := "3.1.0"
+import Settings._
 
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
-lazy val root = (project in file("."))
+lazy val root = (project in file(".")).commonSettings
   .settings(name := "retry-my-cats", libraryDependencies ++= Dependencies.root)
 
 addCommandAlias("ls", "projects")
