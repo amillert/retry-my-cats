@@ -1,4 +1,4 @@
-name: Scala CI for checking PR
+name: Build, Style & Tests
 
 on:
   pull_request:
