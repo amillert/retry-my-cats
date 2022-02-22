@@ -1,1 +1,1 @@
-[![Scala CI for checking PR](https://github.com/amillert/retry-my-cats/actions/workflows/check-PR.yml/badge.svg)](https://github.com/amillert/retry-my-cats/actions/workflows/check-PR.yml)
+[![Build & Tests](https://github.com/amillert/retry-my-cats/actions/workflows/check-pr.yml/badge.svg)](https://github.com/amillert/retry-my-cats/actions/workflows/check-pr.yml)
